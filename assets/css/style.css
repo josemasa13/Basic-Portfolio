@@ -2,10 +2,27 @@ html{
     background-image: url("../images/background.png");
 }
 
+body, a{
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+}
+
 #foto-perfil{
     float: left;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 75px;
+}
+
+.personal-content{
+    padding: 10px;
 }
 
 .clearfix{
@@ -14,6 +31,13 @@ html{
 
 body{
     margin: 0px;
+}
+
+.navbar{
+    height: 50px;
+    border-bottom: solid;
+    border-color:#cccccc;
+    border-width: 2px;
 }
 
 nav, .info{
@@ -25,14 +49,54 @@ nav, .info{
     margin: auto;
 }
 
+.nav-content{
+    height: 100%;
+    overflow: hidden;
+}
+
 h3, ul{
     display: inline;
 }
 
+.info{
+    margin-top: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #666666;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: 5px;
+    color: #ffffff;
+    font-size: 10px;
+}
+
 .name{
-    background-color: teal;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    height: 50px;
+    line-height: 50px;
 }
 
 nav{
     width: 100%;
+}
+
+.section-name{
+    color: #4aaaa5;
+}
+
+.nav-items{
+    float: right;
+}
+
+.nav-button{
+    padding-left: 10px;
+    padding-right: 10px;
 }
