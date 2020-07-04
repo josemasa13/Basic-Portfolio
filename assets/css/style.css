@@ -1,0 +1,38 @@
+html{
+    background-image: url("../images/background.png");
+}
+
+#foto-perfil{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.clearfix{
+    display: flow-root;
+}
+
+body{
+    margin: 0px;
+}
+
+nav, .info{
+    background-color: #ffffff ;
+}
+
+.info, .nav-content{
+    width: 960px;
+    margin: auto;
+}
+
+h3, ul{
+    display: inline;
+}
+
+.name{
+    background-color: teal;
+}
+
+nav{
+    width: 100%;
+}
