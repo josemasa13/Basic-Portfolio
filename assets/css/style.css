@@ -2,6 +2,68 @@ html{
     background-image: url("../images/background.png");
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 100%;
+}
+
+a.nav-button:hover{
+    color: #0AD149;
+}
+
+.submit-button{
+    background-color: #4aaaa5;
+    border: none;
+    width: 20%;
+    height: 25px;
+}
+
+.portfolio-image{
+    height: 100%;
+    width: 100%;
+}
+
+.tag {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    z-index: 1000;
+    background-color: #4aaaa5;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 93%;
+}
+
+
+
 body, a{
     color:#777777;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,7 +99,7 @@ body{
     height: 50px;
     border-bottom: solid;
     border-color:#cccccc;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 nav, .info{
@@ -74,6 +136,10 @@ footer{
     border-width: 5px;
     color: #ffffff;
     font-size: 10px;
+}
+
+input, textarea{
+    width: 100%;
 }
 
 .name{
